@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSE MESH Login</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="css/loginstyle10.css" media="screen"/>
+<link rel = "stylesheet" href= "css/stylesheet10.css">
+<link rel="stylesheet" href="css/homepage10.css">
+<!--Bootsrap cdn-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  body{
+  background-color: #eae2b7;
+}
+</style>
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="row">
+  <div  class="col-6">
+  <img src="img/login.png" alt="login image">
+  </div>
+
+<div  class="col-6">
+  <div  class="bord p-5">
+      <h2>CSE MESH Login</h2>
+
+
+  <form id="#form1" action="login.php" method="post">
+    <label for="id"><b>ID</b></label><br>
+    <input id="id" type="text" placeholder="Enter ID" name="id" required><br>
+
+    <label for="pass"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="pass" required><br>
+ 
+    <input class="button" type="submit" name="submit" value="Login"><br><br><br>
+    <a href="#">Forgot password?</a>
+  </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+<script>
+  $(document).ready(function(){
+  $("#id").keydown(function(){
+    $("[type='text']").css("background-color", "#D3D3D3");
+  });
+});
+</script>
+</body>
+</html>

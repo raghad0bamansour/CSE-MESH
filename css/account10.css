@@ -1,0 +1,26 @@
+.account {
+border-collapse: collapse;
+width: 55%;
+color: #333333;
+font-size: 20px;
+text-align: left;
+border: 2px solid #333333;
+margin: 50px 50px 30px 75px;
+height:90%;
+}
+
+th{
+background-color: #ffdc64;
+color: black;
+border: 1px solid #333333;
+}
+
+tr:nth-child(even) {
+background-color: #ffffff; 
+border: 1px solid black;
+}
+
+#form1 {
+border: 8px solid #333333; 
+text-align: left; 
+}

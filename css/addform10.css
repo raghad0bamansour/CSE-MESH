@@ -1,0 +1,15 @@
+.heading {
+  color:#d62828;
+}
+.table2{
+  padding-bottom: 10px;
+  color: #0c4f72;
+  font-size: 18px;
+}
+input {
+  outline-color: #0c4f72;
+}
+textarea {
+  outline-color: #0c4f72;
+}
+
